@@ -1,0 +1,138 @@
+body {
+    background : linear-gradient(to bottom right ,#4776E6,#8E54E9);
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.cal-box{
+    height: 600px;
+}
+.container{
+    margin-top: 10px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.cal-main{
+    height: 399px;
+    width: auto; 
+}
+
+.cal-screen { 
+    background:#42275a ;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    width:394px ;
+    height: 90px;
+    box-shadow: 0 0 6px black;
+    display: flex;
+    flex-wrap: wrap;
+}   
+.grid-container{
+    background: #42275a;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 398px;
+    height: 340px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    box-shadow: 0 0 6px black;
+   
+}
+
+
+.cal-btn{
+    background: #42275a;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    width: 70px;
+    height: 50px;
+    border: #8E54E9;
+    border-radius: 10px;
+}
+/*------------------------------------------*/
+.darkmode {
+    text-align: right;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .3s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .3s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+  
+.slider.round {
+    border-radius: 35px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+} 
+
+.lightmode {
+background: linear-gradient(to right ,#FFEEEE,#DDEFBB);
+
+}
+.lightscreen { 
+    background: white;
+    color: black;
+    border: none;
+    box-shadow: 0 0 0px pink;
+}
+.lightbodycalculator {
+    background: white;
+    box-shadow: 0 0 0px pink;
+
+}
+.lightbuttton { 
+background-color:white;
+border: black;
+color: black;
+}
+
